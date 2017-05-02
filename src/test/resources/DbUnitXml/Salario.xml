@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version='1.0' encoding='UTF-8'?>
 <dataset>
-	<salario codigo="1" salario="2000" bonus="500" />
-	<salario codigo="2" salario="1000" bonus="500" />
-	<salario codigo="3" salario="800" bonus="500" />
+  <salario codigo="1" salario="2000" bonus="500"/>
+  <salario codigo="2" salario="1000" bonus="500"/>
+  <salario codigo="3" salario="800" bonus="500"/>
+  <salario codigo="4" salario="500" bonus="500"/>
+  <salario codigo="500" salario="10000" bonus="100"/>
 </dataset>
