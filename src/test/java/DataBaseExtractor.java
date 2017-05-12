@@ -16,7 +16,7 @@ import org.dbunit.dataset.xml.FlatXmlDataSet;
  * @author vhazrati
  *
  */
-public class DatabaseExtractor {
+public class DataBaseExtractor {
 
 	public static void main(String[] args)
 			throws ClassNotFoundException, SQLException, DatabaseUnitException, FileNotFoundException, IOException {
@@ -32,7 +32,7 @@ public class DatabaseExtractor {
 		partialDataSet.addTable("salario");
 
 		// XML file into which data needs to be extracted
-		FlatXmlDataSet.write(partialDataSet, new FileOutputStream("src/test/resources/DbUnitXml/salario.xml"));
+		FlatXmlDataSet.write(partialDataSet, new FileOutputStream("src/test/resources/DbUnitXml/salarioDBUnit.xml"));
 		System.out.println("Dataset written");
 	}
 }

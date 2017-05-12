@@ -37,9 +37,9 @@ public class SalarioDAOTest {
 
 	@Before
 	public void init() {
-		dbUnitHelper.execute(DatabaseOperation.DELETE_ALL, "Salario.xml");
+		dbUnitHelper.execute(DatabaseOperation.DELETE_ALL, "salarioDBUnit.xml");
 
-		dbUnitHelper.execute(DatabaseOperation.INSERT, "Salario.xml");
+		dbUnitHelper.execute(DatabaseOperation.INSERT, "salarioDBUnit.xml");
 
 		manager = factory.createEntityManager();
 		this.salarioDAO = new SalarioDAO(manager);
